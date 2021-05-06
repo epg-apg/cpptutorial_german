@@ -1,0 +1,63 @@
+{
+    // Editor settings
+    "editor.tabSize": 4,
+    "editor.fontSize": 20,
+    "editor.rulers": [80, 120],
+    "editor.renderWhitespace": "trailing",
+    "editor.suggestSelection": "first",
+    "terminal.integrated.shell.windows": "C://WINDOWS//System32//cmd.exe",
+    "terminal.integrated.inheritEnv": false,
+    "debug.onTaskErrors": "debugAnyway",
+    "debug.javascript.suggestPrettyPrinting": false,
+    // Explorer settings
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "window.zoomLevel": 0,
+    // Files settings
+    "files.autoSave": "onFocusChange",
+    // Workbench settings
+    "workbench.startupEditor": "newUntitledFile",
+    // Git settings
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    // C/Cpp settings
+    "C_Cpp.clang_format_sortIncludes": true,
+    "C_Cpp.formatting": "vcFormat",
+    "C_Cpp.vcFormat.indent.caseLabels": true,
+    "C_Cpp.vcFormat.indent.preserveComments": true,
+    "C_Cpp.vcFormat.indent.namespaceContents": false,
+    "C_Cpp.vcFormat.indent.caseContentsWhenBlock": true,
+    "C_Cpp.vcFormat.space.pointerReferenceAlignment": "right",
+    "C_Cpp.simplifyStructuredComments": false,
+    "C_Cpp.default.browse.limitSymbolsToIncludedHeaders": false,
+    // Cmake settings
+    "cmake.configureOnOpen": false,
+    "cmake.autoSelectActiveFolder": false,
+    "cmake.configureOnEdit": false,
+    // C/C++ Doxygen Docstrings
+    "doxdocgen.file.fileTemplate": "@file {name}",
+    "doxdocgen.cpp.tparamTemplate": "@tparam {param} ",
+    "doxdocgen.generic.briefTemplate": "@brief {text}",
+    "doxdocgen.generic.boolReturnsTrueFalse": false,
+    "doxdocgen.generic.paramTemplate": "@param {param} ",
+    "doxdocgen.generic.returnTemplate": "@return",
+    "doxdocgen.generic.includeTypeAtReturn": false,
+    // IntelliSense AI Extension
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    // Formatting tools
+    "[c]": {
+        "editor.formatOnSave": false,
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "[cpp]": {
+        "editor.formatOnSave": false,
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    // Telemetry settings
+    "partialDiff.enableTelemetry": false,
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    // Other extensions
+    "formatContextMenu.closeAfterSave": true
+}
