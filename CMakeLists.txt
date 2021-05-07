@@ -10,4 +10,4 @@ set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY "${PROJECT_BINARY_DIR}/bin")
 add_executable("default" "main.cpp")
 
 # Chapter 1
-# add_subdirectory("tutorial/syntax")
+add_subdirectory("tutorial/1_CppGrundlagen")
