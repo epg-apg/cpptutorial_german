@@ -67,5 +67,7 @@ int main(void)
 
     std::cout << "Ergebnis Multiplikation: " << inputZahl1 * inputZahl2 << std::endl;
 
+    std::cout << "sizeof(int): " << sizeof(iZahl) << std::endl;
+
     return 0;
 }
